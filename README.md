@@ -35,7 +35,7 @@
 
 ### **Plato - Presentación**
 
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBt9IezQlz32DIyOci5hjbQVyLXmzfF6cSIw&s" >
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBt9IezQlz32DIyOci5hjbQVyLXmzfF6cSIw&s">
 
 **Enlaces de interés:**
 
