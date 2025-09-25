@@ -10,7 +10,7 @@ body {
 
 main {
     display: flex;
-    height: 450px; 
+    height: 550px; 
     max-width: 600px;
     margin: 0 auto; 
     border-radius: 16px; 
