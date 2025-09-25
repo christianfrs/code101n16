@@ -62,7 +62,7 @@ main section p {
 /* Asumiendo que has envuelto h3 y h4 en un div con clase .price-container */
 .price-container {
     display: flex;
-    align-items: center; /* Centra verticalmente */
+    align-items: center; 
     margin-bottom: 25px; /* Espacio antes del botón */
 }
 
