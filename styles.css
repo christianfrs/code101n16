@@ -10,18 +10,23 @@ body {
 
 main {
     display: flex;
+    height: 450px; 
+    max-width: 600px;
+    margin: 0 auto; 
+    border-radius: 16px; 
 }
 
 main>img{
-    width: 50%;
+    flex: 1;
+    width: 100%;
     border-radius: 16px 0 0 16px;
-    height: 450px; 
-    max-width: 600px
+    height: 100%; 
+    object-fit: cover;
 }
 
 main>section{
-    border: 1px;
-    width: 50%;
+    flex: 1;
+    height: 100%;
     border-radius: 0 16px 16px 0;
     background-color: #fff;
     padding: 38px;
