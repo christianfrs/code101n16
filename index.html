@@ -4,84 +4,30 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Documento</title>
-   <style>
-      /*Normalizacion*/
-      /*Se vea igual en todos los navegadores*/
-      * {
-         margin: 0;
-         padding: 0;
-         box-sizing: border-box;
-      }
-
-      #card {
-         width: 350px;
-         background-color: #1f1f1f;
-         padding: 16px;
-         border-radius: 8px;
-      }
-
-      img {
-         width: 100%;
-         border-radius: 8px;
-      }
-
-      h1 {
-         color: #fff;
-         text-align: center;
-         /*Centras*/
-         font-family: Arial;
-         font-size: 28px;
-         margin-bottom: 12px;
-      }
-
-      h2 {
-         color: #80a019;
-         text-align: center;
-         /*Centro*/
-         font-size: 16px;
-         font-family: Arial;
-      }
-
-      p {
-         color: #fff;
-         text-align: center;
-         /*Center*/
-         font-family: Arial;
-         margin-top: 24px;
-         margin-bottom: 24px;
-      }
-
-      button {
-         width: 100%;
-         height: 36px;
-         background-color: #333333;
-         color: #fff;
-         border: none;
-         border-radius: 8px;
-         margin-bottom: 12px;
-         font-weight: 600;
-         /*Grosor de la letra 100 - 900*/
-      }
-   </style>
+   <title>Document</title>
+   <link rel="stylesheet" href="styles.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet">
 </head>
 
 <body>
-
-   <section id="card">
-      <img
-         src="https://media.posterstore.com/site_images/68631bd825436f8361d76854_1309055148_WB0038-5.jpg"
-         alt="">
-      <h1>Jessica Randall</h1>
-      <h2>London, United Kingdom</h2>
-      <p>"Front-end developer and avid reader"</p>
-      <button>GitHub</button>
-      <button>Frontend Mentor</button>
-      <button>Linkedin</button>
-      <button>Twitter</button>
-      <button>Instagram</button>
-   </section>
-
+   <main>
+      <img src="./assets/perfume.jpg" alt="Perfume">
+      <section>
+         <h2>PERFUME</h2>
+         <h1>Gabrielle Essence Eau De Parfum</h1>
+         <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of
+            CHANEL.
+         </p>
+         <div class="price-container">
+            <h3>$149.99</h3><h4>$169.99</h4>
+         </div>
+         <button><img src="./assets/cart.svg" alt=""> Add to Cart</button>
+      </section>
+   </main>
 </body>
 
 </html>

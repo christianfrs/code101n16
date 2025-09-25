@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(30,38%,92%);
+}
+
+main {
+    display: flex;
+}
+
+main>img{
+    width: 50%;
+    border-radius: 16px 0 0 16px;
+}
+
+main>section{
+    border: 1px;
+    width: 50%;
+    border-radius: 0 16px 16px 0;
+    background-color: #fff;
+    padding: 38px;
+}
+
+section>h2{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 4px;
+    margin-bottom: 16px;
+}
+
+section>h1{
+    font-family: "Fraunces", serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1; 
+    margin-bottom: 16px;
+}
+
+main section p {
+    /* Color de texto gris suave */
+    color: hsl(228, 12%, 48%); 
+    /* Tamaño de fuente */
+    font-size: 18px;
+    /* Espaciado de línea para legibilidad */
+    line-height: 1.6;
+    /* Margen para separarlo de los precios */
+    margin-bottom: 25px; 
+}
+
+/* Asumiendo que has envuelto h3 y h4 en un div con clase .price-container */
+.price-container {
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    margin-bottom: 25px; /* Espacio antes del botón */
+}
+
+main section h3 {
+    /* El color verde del diseño */
+    color: hsl(158, 42%, 18%); 
+    /* La fuente llamativa, gruesa y grande */
+    font-family: 'Fraunces', serif; 
+    font-size: 32px;
+    font-weight: 700;
+    /* Espacio entre el precio actual y el precio anterior */
+    margin-right: 20px; 
+}
+
+main section h4 {
+    
+    color: hsl(228, 12%, 48%); 
+    font-size: 13px;
+    text-decoration: line-through; 
+    font-weight: 500; /* Asumiendo que es Montserrat */
+}
+
+main section button {
+    background-color: hsl(158, 36%, 37%); 
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    font-size: 14px;
+    border: none;
+    padding: 15px 0;
+    width: 100%; /* Para que ocupe todo el ancho de la sección */
+    border-radius: 8px;
+    cursor: pointer;
+    
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Espacio entre el ícono y el texto */
+    
+    transition: background-color 0.3s ease;
+}
+
+main section button:hover {
+    background-color: #1a4a35; /* Un verde más oscuro al pasar el ratón */
+}
+
+main section button img {
+    width: 16px;
+    height: 16px;
+
+}
